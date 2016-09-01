@@ -1,7 +1,7 @@
 
 namespace io.timetrack.common.generic {
 
-    public interface IIdentifiable<T> {
+    public interface IIdentifiable<out T> {
 
         T Id { get; }
 

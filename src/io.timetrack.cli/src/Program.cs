@@ -9,11 +9,14 @@ namespace io.timetrack.cli {
 
     class Program
     {
+
         static void Main(string[] args)
         {
 
-            IEnumerable<IProject> projects = new List<Project>(){
+            IEnumerable<IProject> projects = new List<Project>() {
+
                 new Project(){ Name = "Project #1" }
+
             };
 
             foreach (IProject project in projects) {
@@ -27,3 +30,4 @@ namespace io.timetrack.cli {
     }
 
 }
+
