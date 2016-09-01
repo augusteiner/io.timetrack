@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "io.timetrack.common": "1.0.0-*",
+
+    "System.Runtime": "4.1.*"
+  },
+  "frameworks": {
+    "netstandard1.0": { }
+  }
+}
