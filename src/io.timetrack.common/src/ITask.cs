@@ -9,6 +9,12 @@ namespace io.timetrack.common {
 
         string Description { get; set; }
 
+        int AssignedToId { get; }
+        IPerson AssignedTo { get; }
+
+        int CreatedById { get; }
+        IPerson CreatedBy { get; }
+
         IEnumerable<ITag> Tags { get; }
 
     }

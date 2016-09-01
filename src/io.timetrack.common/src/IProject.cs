@@ -8,9 +8,10 @@ namespace io.timetrack.common {
 
         String Name { get; set; }
 
+        int ManagerId { get; set; }
         IPerson Manager { get; }
 
-        IEnumerable<IPerson> Team { get; }
+        IEnumerable<IRoleInProject> Team { get; }
 
         IEnumerable<ITag> Tags { get; }
 

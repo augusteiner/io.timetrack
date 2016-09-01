@@ -11,11 +11,12 @@ namespace io.timetrack.model {
 
         public string Name { get; set; }
 
+        public int ManagerId { get; set; }
         public Person Manager { get; set; }
 
-        public IEnumerable<Person> Team { get; set; }
+        public ICollection<RoleInProject> Team { get; set; }
 
-        public IEnumerable<Tag> Tags { get; set; }
+        public ICollection<Tag> Tags { get; set; }
 
         #region EIMI
 
@@ -23,7 +24,7 @@ namespace io.timetrack.model {
 
         IEnumerable<ITag> IProject.Tags { get { return Tags; } }
 
-        IEnumerable<IPerson> IProject.Team { get { return Team; } }
+        IEnumerable<IRoleInProject> IProject.Team { get { return Team; } }
 
         #endregion
     }
