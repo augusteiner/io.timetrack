@@ -3,8 +3,8 @@ using io.timetrack.common;
 
 namespace io.timetrack.model {
 
-    public class RoleInProject : IRoleInProject
-    {
+    public class RoleInProject : IRoleInProject {
+
         public int Id { get; set; }
 
         public int PersonId { get; set; }

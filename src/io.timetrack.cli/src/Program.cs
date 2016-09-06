@@ -7,11 +7,9 @@ using io.timetrack.model;
 
 namespace io.timetrack.cli {
 
-    class Program
-    {
+    class Program {
 
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
 
             IEnumerable<IProject> projects = new List<Project>() {
 
