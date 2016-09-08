@@ -1,13 +1,16 @@
 {
   "version": "1.0.0-*",
+
   "buildOptions": {
     "debugType": "portable",
     "emitEntryPoint": true
   },
+
   "dependencies": {
     "io.timetrack.common": "1.0.0-*",
     "io.timetrack.model": "1.0.0-*"
   },
+
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
