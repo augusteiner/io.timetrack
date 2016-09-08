@@ -1,8 +1,10 @@
 {
   "version": "1.0.0-*",
+
   "dependencies": {
     "System.Runtime": "4.1.*"
   },
+
   "frameworks": {
     "netstandard1.0": { }
   }
